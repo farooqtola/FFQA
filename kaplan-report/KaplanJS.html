@@ -1,9 +1,3 @@
-/* ============================================================================
- * KAPLAN REPORT (admin)  —  paste this block into Index.html
- * Put it inside the <script>, right after the drawAQRep / qrDownload functions
- * (i.e. just before the "REPORT CARD" comment).
- * Needs NO new CSS: it reuses the Quiz Report styles (qr-*).
- * ========================================================================== */
 function kpBand(p,w){ return w?['Watched','qr-d']:p>0?['In progress','qr-p']:['Not started','qr-na']; }
 function vAKap(){
   $('main').innerHTML='<div class="loading">Preparing Kaplan report…</div>';
